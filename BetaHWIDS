@@ -33,6 +33,7 @@ local function GenerateString(Length)
         table.insert(String, char)
         Recent = char
     end
+    print("A")
 
     return table.concat(String, "")
 end
